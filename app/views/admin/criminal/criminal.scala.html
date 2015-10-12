@@ -1,0 +1,30 @@
+@* criminal Template File *@
+@(title: String)(content: Html)
+
+@import admin._
+
+@dashboardtem("Home"){
+	 <!-- Sub Nav End -->
+        <div class="sub-nav hidden-sm hidden-xs">
+          <ul>
+            <li><a href="#" class="heading">Criminal Details</a></li>
+            <li class="hidden-sm hidden-xs">
+              <a href="edit-profile.html" class="selected">
+                Edit profile
+              </a>
+            </li>
+            <li class="hidden-sm hidden-xs">
+              <a href="default.html">
+                View profile
+              </a>
+            </li>
+            <li class="hidden-sm hidden-xs">
+              <a href="invoice.html">
+               Crime Entry
+              </a>
+            </li>
+            
+        </div>
+        <!-- Sub Nav End -->
+	}
+<section class="content">@content</section>
